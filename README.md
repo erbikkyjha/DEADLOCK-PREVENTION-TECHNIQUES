@@ -20,6 +20,8 @@ Person P1 uses the knife and fork until finished.
 Person P1 releases the knife and fork.
 Since the resources that P2 was waiting for are free, P2 is granted both the knife and fork.
 Person P2 uses the knife and fork until finished. Person P2 releases the knife and fork.
+
+
 MULTISHOT ALGORITHM [21]
 In multishot or repeated one shot algorithm, an alternative protocol allows a process to
 request resources only when the process has none. A process may request some resources
@@ -39,6 +41,8 @@ end if
 If a process P wants to request resources while holding resources, they follow these steps:
 P frees all resources being held P requests all resources previously held plus the new
 resources it wants to acquire.
+
+
 HIERARCHICAL ALGORITHM [21]
 Assume the resources have unique priorities (i.e., all priorities are different). Given a
 request from process P for resource R, the resource manager follows these rules:
