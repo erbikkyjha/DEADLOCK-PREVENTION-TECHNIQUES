@@ -1,6 +1,6 @@
 # DEADLOCK-PREVENTION-TECHNIQUES
 
-ONE-SHOT ALGORITHM [21]
+ONE-SHOT ALGORITHM 
 In one shot algorithm one protocol requires each process to request and be allocated all its
 resources before it begins execution. Given a request from process P for resources R1, R2,
 ..., Run, the resource manager follows these rules
@@ -22,7 +22,7 @@ Since the resources that P2 was waiting for are free, P2 is granted both the kni
 Person P2 uses the knife and fork until finished. Person P2 releases the knife and fork.
 
 
-MULTISHOT ALGORITHM [21]
+MULTISHOT ALGORITHM 
 In multishot or repeated one shot algorithm, an alternative protocol allows a process to
 request resources only when the process has none. A process may request some resources
 and use them. Before it can request any additional resources, however, it must release all the
@@ -43,7 +43,7 @@ P frees all resources being held P requests all resources previously held plus t
 resources it wants to acquire.
 
 
-HIERARCHICAL ALGORITHM [21]
+HIERARCHICAL ALGORITHM 
 Assume the resources have unique priorities (i.e., all priorities are different). Given a
 request from process P for resource R, the resource manager follows these rules:
 if process P currently has any resources with equal or higher priority than
